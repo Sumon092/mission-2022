@@ -1,12 +1,17 @@
 body{
     font-family: 'Poppins', sans-serif;
-    margin-top: 5%;
-    margin-left: 5%;
+    margin: 0;
     padding: 0;
 }
 h1{
     font-size: 60px;
     padding-left: 10px;
+}
+#top-image img{
+    width: 90%;
+    height: 40%;
+    margin-left: 50px;
+    
 }
 .colorful-second-sec{
     color: rgba(190, 62, 15, 0.575);
@@ -19,19 +24,24 @@ h1{
 }
 .go-flex{
     display: flex;
+    margin-top: 50px;
+    margin-left: 70px;
+    margin-right: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 .display-divide{
-    width: 100%;
-    height: 80%;
-    margin-left: 7%;
+    width: 80%;
+    height: 80%; 
 }
 .display-divide img{
-    width: 80%;
-    height: 80%;
+    width: 70%;
+    height: 60%;
     
 }
 .explore-button{
     text-decoration: none;
+    margin-top: 25px;
     border-radius: 5px;
     background-image: linear-gradient(coral,orange);
     padding: 10px 40px;
@@ -73,3 +83,23 @@ h2{
 #goal{
     background-color: rgba(229, 208, 240, 0.856);
 }
+.display-divide h2{
+    text-align: left;
+    font-size: 45px;
+    color:initial;
+}
+/* .no-dev-limit{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: var(#goal);
+} */
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-weight: 700;
+}
+
